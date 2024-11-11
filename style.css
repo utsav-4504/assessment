@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    width: 200px;
+    text-align: center;
+    border: 2px solid #333;
+    padding: 25px;
+    border-radius: 10px;
+    background: #000;
+}
+
+#display {
+    width: 177px;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.btn {
+    padding: 12px;
+    font-size: 1.2em;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
